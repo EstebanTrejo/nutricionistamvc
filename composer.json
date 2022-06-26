@@ -1,0 +1,22 @@
+{
+    "name": "esteban/nutricionistamvc",
+    "description": "este es un proyecto it integrantes esteban jose nico hernan para itse 2022",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "EstebanTrejo",
+            "email": "entrejo66@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
